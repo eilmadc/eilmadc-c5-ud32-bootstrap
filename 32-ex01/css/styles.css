@@ -30,3 +30,15 @@ body{
 #button1{
     background-color: #55DCC1;
 }
+
+.bi-lock-fill{
+    font-size: 5rem;
+    color: #CFD4DA;
+}
+.custom_1{
+    vertical-align:middle;
+}
+
+.custom_form_1{
+    color: #CFD4DA;
+}
