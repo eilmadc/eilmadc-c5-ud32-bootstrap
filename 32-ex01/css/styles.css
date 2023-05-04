@@ -1,0 +1,32 @@
+html{
+
+
+}
+
+
+h1,p{
+    color:white;
+}
+
+h2{
+    color:gray;
+}
+
+.row{
+    color:white;
+}
+
+body{
+    background-image: url("../images/rainbow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.main__container{
+    
+}
+
+#button1{
+    background-color: #55DCC1;
+}
