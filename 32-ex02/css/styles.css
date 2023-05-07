@@ -1,0 +1,21 @@
+
+h1,
+p {
+  color: white;
+}
+
+h2 {
+  color: gray;
+}
+
+.row {
+  color: white;
+}
+
+form{
+  width: 600px;
+}
+
+.bi-person-fill, .bi-envelope-fill, .bi-telephone-fill, .bi-pencil-square{
+  font-size: 2rem;
+}

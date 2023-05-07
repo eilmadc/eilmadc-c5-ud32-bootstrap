@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <title>32-Exercise 2</title>
+  </head>
+
+  <body>
+    <div class="container pt-5">
+      <div class="h-200 justify-content-center">
+        <h2 class="text-info mb-4">Contact us</h2>
+
+        <div class="row col-4 mt-5">
+          <div class="col-1">
+            <i class="bi bi-person-fill text-info me-3"></i>
+          </div>
+          <div class="col-10 ms-3">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Name"
+            />
+          </div>
+        </div>
+
+        <div class="row col-4 mt-3">
+          <div class="col-1">
+            <i class="bi bi-person-fill text-info me-3"></i>
+          </div>
+          <div class="col-10 ms-3">
+            <input
+              type="text"
+              class="form-control"
+              id="lname"
+              placeholder="Last Name"
+            />
+          </div>
+        </div>
+
+        <div class="row col-4 mt-3">
+          <div class="col-1">
+            <i class="bi bi-envelope-fill text-info me-3"></i>
+          </div>
+          <div class="col-10 ms-3">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+              placeholder="Email Address"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+        </div>
+
+        <div class="row col-4 mt-3">
+          <div class="col-1">
+            <i class="bi bi-telephone-fill text-info me-3"></i>
+          </div>
+          <div class="col-10 ms-3">
+            <input
+              type="text"
+              class="form-control"
+              id="phone"
+              placeholder="Phone"
+            />
+          </div>
+        </div>
+        <div class="row col-4 mt-5">
+          <div class="col-1">
+            <i class="bi bi-pencil-square text-info me-3"></i>
+          </div>
+          <div class="col-10 ms-3 mb-5">
+            <textarea
+              class="form-control -lg"
+              id="floatingTextarea"
+              placeholder="Enter your message for us here. We will get back to you within 2 bussiness days"
+            ></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-info">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
