@@ -1,44 +1,82 @@
-html{
-
-
+html {
 }
 
-
-h1,p{
-    color:white;
+h1,
+p {
+  color: white;
 }
 
-h2{
-    color:gray;
+h2 {
+  color: gray;
 }
 
-.row{
-    color:white;
+.row {
+  color: white;
 }
 
-body{
-    background-image: url("../images/rainbow.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: auto;
+body {
+  background-image: url("../images/rainbow.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
-.main__container{
+.main__container {
+}
+
+#button1 {
+  background-color: #55dcc1;
+}
+
+.bi-unlock-fill {
+  font-size: 5rem;
+  color: #cfd4da;
+}
+.custom_1 {
+  vertical-align: middle;
+}
+
+.custom_form_1 {
+  color: #cfd4da;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for vh unit */
+  min-height: 90vh; /* You might also want to use
+                          'height' property instead.
+                          
+                          Note that for percentage values of
+                          'height' or 'min-height' properties,
+                          the 'height' of the parent element
+                          should be specified explicitly.
     
-}
+                          In this case the parent of '.vertical-center'
+                          is the <body> element */
 
-#button1{
-    background-color: #55DCC1;
-}
+  /* Align the bootstrap's container vertically */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* Align the bootstrap's container vertically */
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items:flex-end;
 
-.bi-lock-fill{
-    font-size: 5rem;
-    color: #CFD4DA;
-}
-.custom_1{
-    vertical-align:middle;
-}
+  /* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container */
+  width: 100%;
 
-.custom_form_1{
-    color: #CFD4DA;
+  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+  
+     Therefore, we should use the following declarations to get it centered again */
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
