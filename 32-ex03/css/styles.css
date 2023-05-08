@@ -5,10 +5,9 @@ input.form-control {
 }
 
 .font-nav{
-    font-size: 10px;
-    font-weight: bold;
-}
-
-button{
+    font-size: 12px;
+    text-decoration:none;
     outline: none;
+    color: inherit;
+    
 }
