@@ -1,0 +1,36 @@
+html {
+  background-color: lightgray;
+}
+body_c{
+    background-color: lightgray;
+}
+
+input.form-control {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.font-nav {
+  font-size: 12px;
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.navbar_2 {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  box-shadow: 1px 1px 1px lightgray;
+}
+
+.active {
+  background-color: black;
+}
+
+.btn.btn-success,
+.btn-success:hover,
+.btn-success:active,
+.btn-success:visited {
+  background-color: #55b35a !important;
+}
