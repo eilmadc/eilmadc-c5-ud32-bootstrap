@@ -1,12 +1,7 @@
-html{
-    background-color: #162B65;
+html,body{
+    background-color: #55B6AD !important;
 }
 
-body{
-    background-color: #162B65;
-}
-
-.container{ background-color: #162B65;}
 
 
 .vertical-center {
@@ -23,7 +18,7 @@ body{
                             is the <body> element */
   
     /* Align the bootstrap's container vertically */
-    display: -webkit-box;
+
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -50,6 +45,3 @@ body{
     justify-content: center;
   }
   
-  .custom_1 {
-    vertical-align: middle;
-  }
